@@ -1,9 +1,21 @@
 # BankManagerProject
 An Bank Management Related data prediction, on deposite prediction with individual.
 
-#Activation of the virtual env:
-open the file with in the repo using the following commend will activate the virtual environment for the project: 
+All the python packages required by the project: 
+Matplotlib
+Seaborn 
+Numpy
+Pandas
+Scipy
 
-source test_machine/bin/activate
+a Requiemnt file has also been uploaded, install the virtual env package using: 
 
-All the python packages required by the project were  installed in the environment. 
+$ pip install virtualenv
+$ virtualenv -p [path] [VM Name]
+(* Please use Python 3 and not Python 2!)
+
+And then activate that environment and install from your requirements.txt which you have included in your version control:
+
+$ source [path]/bin/activate
+
+(VMNAME) $ pip install -r requirements.txt
