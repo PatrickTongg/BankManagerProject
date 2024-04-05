@@ -16,22 +16,29 @@ The data inside the data is shown follow:
 13.	poutcome: outcome of the previous marketing campaign (categorical: 'failure','nonexistent','success')
 14.	nr.employed: number of employees - quarterly indicator (numeric)
 
+Objective: Subscribed - has the client subscribed a term deposit? (binary: 'yes','no')
+
 
 All the python packages required by the project: 
-Matplotlib
-Seaborn 
-Numpy
-Pandas
-Scipy
+      Matplotlib
+      Seaborn 
+      Numpy
+      Pandas
+      Scipy
 
-a Requiemnt file has also been uploaded, install the virtual env package using: 
+  a Requiemnt file has also been uploaded, install the virtual env package using: 
 
-$ pip install virtualenv
-$ virtualenv -p [path] [VM Name]
-(* Please use Python 3 and not Python 2!)
+    $ pip install virtualenv
+    $ virtualenv -p [path] [VM Name]
+    (* Please use Python 3 and not Python 2!)
+    
+  And then activate that environment and install from your requirements.txt which you have included in your version control:
+    
+    $ source [path]/bin/activate
 
-And then activate that environment and install from your requirements.txt which you have included in your version control:
+    (VMNAME) $ pip install -r requirements.txt
 
-$ source [path]/bin/activate
 
-(VMNAME) $ pip install -r requirements.txt
+
+
+
