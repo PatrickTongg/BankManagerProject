@@ -1,4 +1,4 @@
-# BankManagerProject
+# BankMarketingProject
 An Bank Management Related data prediction, on deposite prediction with individual.
 The data inside the data is shown follow: 
 1.	age (numeric)
